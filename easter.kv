@@ -1,0 +1,31 @@
+#:kivy 1.10.1
+
+<EasterScreen>:
+    FloatLayout:
+        canvas:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: 'resources/background.jpg'
+        Button:
+            id: button
+            text:'Find your easter egg'
+            size_hint: 0.25, 0.1
+            bold: True
+            color: [0,0,1,1]
+            font_size: self.width*0.1
+            pos_hint: {'x': 0.6, 'top': 0.15}
+            background_color: [244/255,176/255,66/255,1]
+            on_press: root.easter_callback()
+        Label:
+            text: '!!! HAPPY EASTER !!!'
+            bold: True,
+            color: [1, 0, 0, 1]
+            pos_hint: {'x': 0.2, 'y': 0.4}
+            font_size: root.width*0.05
+        Image:
+            size_hint: 0.50, 0.35
+            pos_hint: {'x': 0.48, 'y': 0.2}
+            source: root.source
+            color: [0,0,0,1] if root.source == None else [1,1,1,1]
+            
