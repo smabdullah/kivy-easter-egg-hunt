@@ -5,5 +5,6 @@ Check a screenshot of the app below
 ![app screenshoot](resources/app_screenshot.png) 
 
 All the requirements to setup Kivy can be found in the requrements.txt file.
+This app uses royalty free image from [pixabay](https://pixabay.com/)
 
 Enjoy!
