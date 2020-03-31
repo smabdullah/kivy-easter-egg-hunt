@@ -8,3 +8,4 @@ All the requirements to setup Kivy can be found in the requrements.txt file.
 This app uses royalty free image from [pixabay](https://pixabay.com/)
 
 Enjoy!
+Happy easter!!
